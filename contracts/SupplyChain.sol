@@ -1,4 +1,4 @@
-pragma solidity ^0.8.0;
+pragma solidity >=0.4.5 < 0.9.0;
 
 contract SupplyChain {
     struct Product {
@@ -34,3 +34,4 @@ contract SupplyChain {
         emit ProductDelivered(_id);
     }
 }
+
